@@ -1,0 +1,56 @@
+/* Text colors*/
+.text-primary {
+  color: #28a745;
+}
+
+.text-secondary {
+  color: #0284d0;
+}
+/*Button class*/
+.btn{
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  background: #28a745;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  opacity: 0.9;
+}
+.btn-primary, .bg-primary {
+  background: #28a745;
+  color: #fff;
+}
+.flex-items{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  margin: 50px 40px;
+  
+}
+
+.flex-items .row {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  height: 100%;
+  
+}
+
+.flex-items2{
+  display: flex;
+  text-align: left;
+  justify-content: right;
+  height: 100%;
+  margin: 50px 40px;
+}
+.flex-items2 .row{
+  display: flex;
+  text-align: left;
+  justify-content: right;
+  height: 100%;
+  margin-left: 750px;
+}

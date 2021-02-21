@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <title>Welcome to DexVal Music</title>
+</head>
+<body>
+    <header class="hero">
+        <div class="navbar">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+          <h1 class="logo">
+            <span class="text-primary"><i class="fas fa-guitar"></i>DexVal</span> Music  
+          </h1>
+           
+          <nav>
+            <button class="hamburger" id="hamburger">
+              <i class="fas fa-bars fa-2x"></i>
+            </button>
+            <ul class="nav-List" id="nav-List">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#packages">Packages</a></li>
+              <li><a href="#booklesson">Book a Lesson</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#Login">Log In <span class="text-primary"><i class="fas fa-user"></i></span></a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="content">
+          <h1>Private Online Music Lessons</h1>
+          <p>Don't Miss out While You Are Away From School</p>
+          <a href="#booklesson" class="btn">Book a Lesson</a>
+         </div>
+    </header>
+    <main>
+      <section id="about">
+        
+          <div class="rows">
+          <div class="column-row1">
+            <h1>What Do I Teach?</h1>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
+            <a href="#about" class="btn">About Me</a>
+          </div>
+          <div class="column-row2">
+            <h1>Piano</h1>
+            <img src="images/piano.jpg" alt="">  
+            <p>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you. </p>
+          </div>
+          <div class="column-row3">
+            <h1>Singing</h1>
+            <img src="images/sing.jpg" alt="">  
+            <p>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you. </p>
+          </div>
+          </div>
+        
+        
+          <div class="rows">
+            <div class="column-row1">
+
+            </div>
+            <div class="column-row2">
+              <h1>Bass</h1>
+              <img src="images/bass.jpg" alt="">  
+              <p>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you. </p>
+            </div>
+            <div class="column-row3">
+              <h1>Drums</h1>
+              <img src="images/drums.jpg" alt="">  
+              <p>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you. </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="reviews">
+          <div class="review-container">
+            <div id="r1" class="review">
+              <h1>Customer Feedback</h1>
+              <p>Find out Why Your friends and neighbours love us</p>
+            </div>
+            <div id="r2"class="review">
+              <h1>5 Stars</h1>
+              <div class="clip-star"></div>
+              <div class="clip-star"></div>
+              <div class="clip-star"></div>
+              <div class="clip-star"></div>
+              <div class="clip-star"></div>
+              
+              <div class="slideshow-container">
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 2</div>
+                  <div>“Tell me one other company that not only lowers their prices, but doesn't require you to yell and scream to get the same prices as new customers. Then, on top of that, email you to tell you they lowered your price AND improved your speed. Always happy with Start.”</div>
+                  <div class="text">Samuel Balogun</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 2</div>
+                  <div>“Best customer service I have ever had the pleasure of dealing with. Very knowledgeable staff. Great value on the service provided. I have recommended this company to many friends who have also had a similar experience, and will continue to do so.”</div>
+                  <div class="text">Segun Coding</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="contact">
+          <div class="contact-container">
+            <div id="contact-text" class="contact-text">
+              <h1> Contact Me & Let's Get Started </h1>
+              <p>Get to us soon to start your own music lessons.</p>
+            </div>
+
+            <div id="contact-form" class="contact-form">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+             
+              <div class="row">
+                <div class="col-25">
+                  <label for="message">Message</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="submit">
+                <input type="submit" value="Submit" class="btn">
+              </div>
+                </form>
+              </div>
+            
+          </div>
+      </section>
+    </main>
+      <footer class="footer">
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>&nbsp;&nbsp;
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>&nbsp;&nbsp;
+          <a href="#"><i class="fab fa-youtube fa-2x"></i></a>&nbsp;&nbsp;
+          <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>&nbsp;&nbsp;&nbsp;
+      <p>Copyright &copy; 2021 - DexVal Music</p>
+        </div>
+      </footer>
+    <script src="src/slider.js"></script>
+    <script src="src/index.js"></script>
+</body>
+</html>
